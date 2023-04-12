@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>earpearp | jelly</title>
+</head>
+<body>
+    <main>
+        <div class="order">
+            <dl class="path">
+                <dt class="skip">페이지경로</dt>
+                <dd>
+                    <a href="#">home</a>
+                    <a href="#">case</a>
+                    <a href="#">jelly case</a>
+                    <a href="#">color jelly case</a>
+                </dd>
+            </dl>
+            <div class="product_img">
+                <div class="big"><img src="./images/product_01.jpg" alt=""></div>
+                <div class="thum">
+                    <a><img src="./images/product_03.jpg" alt=""></a>
+                    <a><img src="./images/product_02.jpg" alt=""></a>
+                    <a><img src="./images/product_04.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="order_contents">
+                <h1>checker board cherry covy(젤리)</h1>
+                <p><del>17,000won</del></p>
+                <p>8,900won</p>
+                <p class="deliver"><span>배송비</span>2,500원 (50,000원 이상 구매시 무료 배송)</p>
+                <h2>브랜드</h2>
+                <select name="brands" id="brands">
+                    <option value="none">- [필수] 옵션을 선택하세요 -</option>
+                    <option value="galaxy">Galaxy</option>
+                    <option value="iphone">iphone</option>
+                </select>
+                <h2>기종</h2>
+                <select name="galaxyS" id="galaxyS">
+                    <option value="none">- [필수] 옵션을 선택하세요 -</option>
+                    <option value="s20">Galaxy s20</option>
+                    <option value="s21">Galaxy s21</option>
+                    <option value="s22">Galaxy s22</option>
+                    <option value="note20">Galaxy Note 20</option>
+                    <option value="note21">Galaxy Note 21</option>
+                    <option value="note22">Galaxy Note 22</option>
+                </select>
+                <select name="iphoneS" id="iphoneS">
+                    <option value="none">- [필수] 옵션을 선택하세요 -</option>
+                    <option value="i12">iphone12</option>
+                    <option value="i12pro">iphone12 pro</option>
+                    <option value="i13">iphone13</option>
+                    <option value="i13pro">iphone13 pro</option>
+                    <option value="i14">iphone14</option>
+                    <option value="i14pro">iphone14 pro</option>
+                </select>
+                <div class="order_list">
+                    <div class="order_product">
+                        <p class="color">checker board cherry covy(젤리)</p>
+                        <p class="model">- iphone 14 pro</p>
+                    </div>
+                    <input type="number" value="1" id="order_num">
+                    <button type="button" id="cancel"><img src="./images/product_cancel.png" alt="취소하기"></button>
+                    <em><span>17,000</span>WON</em>
+                </div>
+                <div class="total"><h2>TOTAL PRICE :</h2><p class="total"></p></div>
+                <div class="btn">
+                    <button id="buy" type="button"><img src="./images/product_btn01.png" alt="buy it now"></button>
+                    <button id="cart" type="button"><img src="./images/product_btn02.png" alt="add to cart"></button>
+                    <button id="wish" type="button"><img src="./images/product_btn03.png" alt="add to wish"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
