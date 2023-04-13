@@ -1,0 +1,118 @@
+main {
+  background-color: beige;
+  width: 1200px;
+  margin: 0 auto;
+}
+main .path {
+  padding: 15px;
+}
+main .path dd a {
+  color: #00a0e2;
+  font-weight: 700;
+}
+main .path dd a::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/navigate_next.png) no-repeat;
+  position: relative;
+  top: 8px;
+}
+main .path dd a:last-child::after {
+  display: none;
+}
+main #order {
+  display: flex;
+  justify-content: space-between;
+}
+main #order .product_img {
+  background-color: pink;
+  width: 500px;
+}
+main #order .product_img .big img {
+  width: 100%;
+}
+main #order .product_img .thum {
+  background-color: lime;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main #order .product_img .thum a {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+main #order .product_img .thum a img {
+  height: 100%;
+}
+main #order .order_contents {
+  width: calc(100% - 550px);
+  background-color: plum;
+}
+main #order .order_contents > * {
+  margin-bottom: 5px;
+}
+main #order .order_contents h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main #order .order_contents > p {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+main #order .order_contents > p del {
+  font-size: 1.375rem;
+  color: #222;
+}
+main #order .order_contents .deliver {
+  padding-bottom: 20px;
+  border-bottom: 1pa solid #000;
+}
+main #order .order_contents .deliver em {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+main #order .order_contents h2 {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+main #order .order_contents select {
+  width: 100%;
+  padding: 10px 0 10px 15px;
+}
+main #order .order_contents .order_list {
+  display: grid;
+  grid-template-columns: 1fr 50px 50px 150px;
+  align-items: center;
+  border: 1px solid #000;
+  border-right: none;
+  border-left: none;
+  padding: 10px 0;
+}
+main #order .order_contents .order_list .order_product {
+  display: flex;
+  flex-flow: column wrap;
+}
+main #order .order_contents .order_list input[type=number] {
+  border: none;
+}
+main #order .order_contents .order_list em {
+  text-align: right;
+  font-weight: 700;
+}
+main #order .order_contents .order_list em span {
+  font-weight: 700;
+}
+main #order .order_contents .btn {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+}
+main #order .order_contents .btn button img {
+  width: 100%;
+}/*# sourceMappingURL=product.css.map */

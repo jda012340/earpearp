@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>earpearp | jelly</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/product.css">
 </head>
 <body>
     <main>
-        <div class="order">
-            <dl class="path">
-                <dt class="skip">페이지경로</dt>
-                <dd>
-                    <a href="#">home</a>
-                    <a href="#">case</a>
-                    <a href="#">jelly case</a>
-                    <a href="#">color jelly case</a>
-                </dd>
-            </dl>
+        <dl class="path">
+            <dt class="skip">페이지경로</dt>
+            <dd>
+                <a href="#">home</a>
+                <a href="#">case</a>
+                <a href="#">jelly case</a>
+                <a href="#">color jelly case</a>
+            </dd>
+        </dl>
+        <div id="order">
             <div class="product_img">
                 <div class="big"><img src="./images/product_01.jpg" alt=""></div>
                 <div class="thum">
-                    <a><img src="./images/product_03.jpg" alt=""></a>
+                    <a><img src="./images/product_01.jpg" alt=""></a>
                     <a><img src="./images/product_02.jpg" alt=""></a>
-                    <a><img src="./images/product_04.jpg" alt=""></a>
+                    <a><img src="./images/product_03.jpg" alt=""></a>
                 </div>
             </div>
             <div class="order_contents">
                 <h1>checker board cherry covy(젤리)</h1>
                 <p><del>17,000won</del></p>
                 <p>8,900won</p>
-                <p class="deliver"><span>배송비</span>2,500원 (50,000원 이상 구매시 무료 배송)</p>
+                <p class="deliver"><em>배송비</em><span>2,500원 (50,000원 이상 구매시 무료 배송)</span></p>
                 <h2>브랜드</h2>
                 <select name="brands" id="brands">
                     <option value="none">- [필수] 옵션을 선택하세요 -</option>
@@ -63,7 +66,7 @@
                     </div>
                     <input type="number" value="1" id="order_num">
                     <button type="button" id="cancel"><img src="./images/product_cancel.png" alt="취소하기"></button>
-                    <em><span>17,000</span>WON</em>
+                    <em><span>8,900</span>WON</em>
                 </div>
                 <div class="total"><h2>TOTAL PRICE :</h2><p class="total"></p></div>
                 <div class="btn">
@@ -74,5 +77,6 @@
             </div>
         </div>
     </main>
+    <script src="./script/script.js"></script>
 </body>
 </html>
